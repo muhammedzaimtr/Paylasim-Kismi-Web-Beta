@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800&subset=latin,latin-ext);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.resim img{
+  position: absolute;
+  width: 940px;
+  height: 400px;
+  margin-left: 50%;
+  left: -470px;
+  top: 25px;
+}
+
+.orta{
+  position: absolute;
+  margin-top: 440px;
+  width: 540px;
+  height: auto;
+  overflow: hidden;
+  margin-left: 50%;
+  left: -250px;
+}
+
+.orta .yazar{
+  color: #535353;
+  font-size: 14px;
+}
+
+.orta .baslik{
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.orta .yazi{
+  color: #535353;
+  margin-bottom: 25px;
+}
+
+.orta .yazi a{
+  color: #7f8c8d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer{
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 50px;
+  color: #535353;
+  line-height: 50px;
+  font-size: 18px;
+  background-color: #eee;
+  text-align: center;
+}
